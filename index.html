@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body >
+<body>
     <nav id=navbar class="flex justify-around absolute z-2 w-full">
         <!-- <img src="" alt="" class="w-100vw h-100vh bg-[url(./img/header.jpg)]"> -->
         <div class="p-5 mt-4">
@@ -16,8 +16,10 @@
         </div>
         <ul class="flex p-5">
             <li class="p-5 uppercase text-xs"><a href="#about" class="text-none hover:text-[#617fde]">About</a></li>
-            <li class="p-5 uppercase text-xs"><a href="#Portfolio" class="text-none hover:text-[#617fde]">Portfolio</a></li>
-            <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Services</a></li>
+            <li class="p-5 uppercase text-xs"><a href="#Portfolio" class="text-none hover:text-[#617fde]">Portfolio</a>
+            </li>
+            <li class="p-5 uppercase text-xs"><a href="#Services" class="text-none hover:text-[#617fde]">Services</a>
+            </li>
             <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Clients</a></li>
             <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Contact</a></li>
         </ul>
@@ -25,7 +27,7 @@
     <section class="w-full h-screen relative bg-[url('./header.jpg')] bg-cover bg-center">
         <div class="absolute top-55 left-40">
             <h2 class="font-[Roboto, sans-serif] text-3xl mt-5 text-[rgb(51, 51, 51)] font-thin">Easy Customization</h2>
-            <h1 class="font-[Roboto, sans-serif] text-6xl mt-5 font-normal">Creative Agency</h1>
+            <h1 class="font-[Roboto, sans-serif] text-6xl mt-2 font-normal">Creative Agency</h1>
             <div class=" mt-15 bg-[#617fde] p-3 inline-block rounded-full">
                 <a href="#" class="p-3 text-center text-white ">Learn More</a>
             </div>
@@ -47,55 +49,118 @@
             </div>
         </div>
     </section>
-    <section id="Portfolio" class="w-full h-9/10 flex  justify-center flex-wrap bg-[#f4f4f5] ">
-        <div class="inline-block w-xl mt-8 ">
+    <section id="Portfolio" class="w-full h-[950px] flex justify-center flex-wrap bg-[#f4f4f5] ">
+        <div class="inline-block w-xl h-24 mt-5">
             <h1 class="text-4xl uppercase text-center">Portfolio</h1>
             <p class="text-center text-[rgb(111, 124, 130)] font-thin mt-5 text-sm font-normal text-sm/6">Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper.
                 Sed ut orci rutrum, bibendum nisl a, bibendum massa.</p>
         </div>
-        <div class="w-4xl h-3xl  flex flex-wrap gap-y-8 gap-x-4 justify-between mt-15">
-            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg ">
-                <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/01x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+        <div class="w-5xl h-2xl flex flex-wrap justify-center gap-x-5 ">
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg ">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/01x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
             </div>
-           <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
-               <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/02x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/02x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
             </div>
-            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
-              <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/03x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/03x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
             </div>
-            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
-               <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/04x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/04x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
             </div>
-             <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
-             <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/05x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/05x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
             </div>
-           <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
-             <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
-              <img src="/img/portfolio/06x.jpg" alt="01" class="w-2xs h-3xs ">
-              </div>
+            <div class="w-2xs h-[300px] bg-[#f4f4f5] shadow-lg">
+                <div
+                    class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+                    <img src="/img/portfolio/06x.jpg" alt="01" class="w-2xs h-3xs ">
+                </div>
                 <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
                 <p class="text-center italic  text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+        </div>
+    </section>
+    <section id="Services" class="w-full h-full flex flex-wrap justify-center mt-10">
+        <div class="w-2xl  mt-5">
+            <h2 class="text-center text-4xl uppercase text-[Roboto, sans-serif]">Services</h2>
+            <p class="text-center text-sm mt-4 text-[#6f7c82] text-[Roboto, sans-serif]">Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Donec egestas dignissim ullamcorper.
+                Sed ut orci rutrum, bibendum nisl a, bibendum massa.</p>
+        </div>
+        <div class="flex w-4xl mt-20 ">
+            <div class="w-lg">
+                <img src="/img/portfolio/07.png" alt="" class="w-sm h-96">
+            </div>
+            <div class="w-lg mt-10 ml-10">
+                <h3 class=" text-xl text-[#6f7c82] font-extralight text-[Roboto, sans-serif]">incredible websites</h3>
+                <h1 class="text-4xl uppercase mt-3 text-[Roboto, sans-serif]">website development</h1>
+                <p class="text-sm leading-6 mt-3 text-[#6f7c82] font-extralight text-[Roboto, sans-serif]">Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper. Sed ut
+                    orci rutrum, bibendum nisl a, bibendum massa. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec egestas dignissim ullamcorper. Sed ut orci rutrum, bibendum nisl a, bibendum massa.</p>
+                <div class="mt-5 bg-[#617fde] p-2 inline-block rounded-full">
+                    <a href="#" class="uppercase  p-4 text-xs text-white ">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex w-4xl mt-20 ">
+
+            <div class="w-lg mt-10 ml-0">
+                <h3 class=" text-xl text-[#6f7c82] font-extralight text-[Roboto, sans-serif]">incredible websites</h3>
+                <h1 class="text-4xl uppercase mt-3 text-[Roboto, sans-serif]">Mobile Design</h1>
+                <p class="text-sm leading-6 mt-3 text-[#6f7c82] font-extralight text-[Roboto, sans-serif]">Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper. Sed ut
+                    orci rutrum, bibendum nisl a, bibendum massa. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Donec egestas dignissim ullamcorper. Sed ut orci rutrum, bibendum nisl a, bibendum massa.</p>
+                <div class="mt-5 bg-[#617fde] p-2 inline-block rounded-full">
+                    <a href="#" class="uppercase  p-4 text-xs text-white ">Learn More</a>
+                </div>
+            </div>
+            <div class="w-lg">
+                <img src="/img/portfolio/08.png" alt="" class="w-xs h-[450px]">
+            </div>
+        </div>
+    </section>
+    <section id="client" class="bg-[#f4f4f5] w-full h-[400px] flex justify-center">
+        <div class="flex justify-center flex-wrap w-4xl h-64 mt-30">
+            <div>
+                <h2 class="text-center text-3xl uppercase">Our Clients</h2>
+                <p class="text-center mt-3 text-sm text-[Roboto, sans-serif] font-thin w-xl">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Aut eaque, laboriosam veritatis,
+                    quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            </div>
+            <div class="flex gap-10 w-3xl justify-between">
+                <img src="img\logos\aetuts.jpg" alt="" class="w-[150px] h-[50px]">
+                 <img src="img\logos\designmodo.jpg" alt="" class="w-[150px] h-[50px]">
+                   <img src="img\logos\wordpress.jpg" alt="" class="w-[150px] h-[50px]">
+                <img src="img\logos\creative-market.jpg" alt="" class="w-[150px] h-[50px]">
             </div>
         </div>
     </section>
