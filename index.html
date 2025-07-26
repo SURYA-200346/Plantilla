@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plantilla</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body >
+    <nav id=navbar class="flex justify-around absolute z-2 w-full">
+        <!-- <img src="" alt="" class="w-100vw h-100vh bg-[url(./img/header.jpg)]"> -->
+        <div class="p-5 mt-4">
+            <span class="text-[#718ce1] font-[Roboto, sans-serif] p-5 text-2xl">Creative Agency</span>
+        </div>
+        <ul class="flex p-5">
+            <li class="p-5 uppercase text-xs"><a href="#about" class="text-none hover:text-[#617fde]">About</a></li>
+            <li class="p-5 uppercase text-xs"><a href="#Portfolio" class="text-none hover:text-[#617fde]">Portfolio</a></li>
+            <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Services</a></li>
+            <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Clients</a></li>
+            <li class="p-5 uppercase text-xs"><a href="" class="text-none hover:text-[#617fde]">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="w-full h-screen relative bg-[url('./header.jpg')] bg-cover bg-center">
+        <div class="absolute top-55 left-40">
+            <h2 class="font-[Roboto, sans-serif] text-3xl mt-5 text-[rgb(51, 51, 51)] font-thin">Easy Customization</h2>
+            <h1 class="font-[Roboto, sans-serif] text-6xl mt-5 font-normal">Creative Agency</h1>
+            <div class=" mt-15 bg-[#617fde] p-3 inline-block rounded-full">
+                <a href="#" class="p-3 text-center text-white ">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="flex justify-center items-center w-full w-80 h-96 ">
+        <div class="w-4xl flex">
+            <div class="w-3xl">
+                <h1 class="text-5xl m-0 p-0 text-[rgb(51, 51, 51)] font-[Roboto, sans-serif]">Free Bootstrap</h1>
+            </div>
+            <div class="w-3xl">
+                <p class="text-[rgb(0, 0, 0)] font-[Roboto, sans-serif] text-sm text-sm/6">Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipiscing elit. Proin ut vulputate massa. Duis lorem odio,
+                    facilisis et massa non, pharetra accumsan neque. Suspendisse hendrerit congue velit eu posuere.
+                    Vivamus
+                    vitae ligula faucibus, posuere enim at, porta urna. Morbi malesuada tincidunt fermentum.</p>
+                <p class="pt-5 text-[#4e1724]"> Morbi malesuada tincidunt fermentum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="Portfolio" class="w-full h-9/10 flex  justify-center flex-wrap bg-[#f4f4f5] ">
+        <div class="inline-block w-xl mt-8 ">
+            <h1 class="text-4xl uppercase text-center">Portfolio</h1>
+            <p class="text-center text-[rgb(111, 124, 130)] font-thin mt-5 text-sm font-normal text-sm/6">Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit. Donec egestas dignissim ullamcorper.
+                Sed ut orci rutrum, bibendum nisl a, bibendum massa.</p>
+        </div>
+        <div class="w-4xl h-3xl  flex flex-wrap gap-y-8 gap-x-4 justify-between mt-15">
+            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg ">
+                <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/01x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+           <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
+               <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/02x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
+              <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/03x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+            <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
+               <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/04x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+             <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
+             <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/05x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic mb-4 text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+           <div class="w-2xs h-auto bg-[#f4f4f5] shadow-lg">
+             <div class="relative after:content-[''] after:absolute after:inset-0 after:bg-yellow-400 after:opacity-0 hover:after:opacity-80 after:transition-opacity">
+              <img src="/img/portfolio/06x.jpg" alt="01" class="w-2xs h-3xs ">
+              </div>
+                <h3 class="mt-5 text-center text-[#333] mb-0">Corporate X</h3>
+                <p class="text-center italic  text-[#777777] font-[Droid Serif] text-sm">Mobile Web Design</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
